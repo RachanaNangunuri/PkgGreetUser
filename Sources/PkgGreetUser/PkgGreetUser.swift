@@ -3,4 +3,8 @@ public struct PkgGreetUser {
 
     public init() {
     }
+
+    func greet(user: String) -> String {
+        return "Hello \(user)"
+    }
 }
