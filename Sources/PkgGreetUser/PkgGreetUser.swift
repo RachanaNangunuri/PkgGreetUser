@@ -1,3 +1,6 @@
+import CouchbaseLiteSwift
+import HelloPkg
+
 public struct PkgGreetUser {
     public private(set) var text = "Hello, World!"
 
@@ -5,6 +8,6 @@ public struct PkgGreetUser {
     }
 
     public func greet(user: String) -> String {
-        return "Hello \(user)"
+        return HelloPkg().wish(user: user)
     }
 }
