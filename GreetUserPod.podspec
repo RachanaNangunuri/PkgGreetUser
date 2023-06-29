@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/RachanaNangunuri/PkgGreetUser.git" }
   spec.source_files  = "Sources/PkgGreetUser"
   spec.dependency 'CouchbaseLiteSwift'
-  spec.dependency 'HelloPkg'
+  
 end

@@ -14,8 +14,8 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/couchbase/couchbase-lite-ios", branch: "master"),
-        .package(url: "https://github.com/RachanaNangunuri/HelloPkg", branch: "main")
+        .package(url: "https://github.com/couchbase/couchbase-lite-ios", revision: "0368a9d"),
+        .package(url: "https://github.com/RachanaNangunuri/HelloPkg", revision: "64307e4")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.

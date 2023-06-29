@@ -5,7 +5,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/couchbase/couchbase-lite-ios",
       "state" : {
-        "branch" : "master",
+        "branch" : "0368a9d",
         "revision" : "0368a9d8830d9016736c9b29a83ecbbd508545f7"
       }
     },
@@ -14,7 +14,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/RachanaNangunuri/HelloPkg",
       "state" : {
-        "branch" : "main",
+        "branch" : "64307e4",
         "revision" : "64307e4ca5616de88b28e00a6d4c179eac3a4544"
       }
     }
